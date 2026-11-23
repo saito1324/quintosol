@@ -1,0 +1,26 @@
+{
+    "$schema":  "file:///C:/Users/brayt/OneDrive/Desktop/trata%20de%20albinas/distro-quintosol/schemas/ServerMetaSchema.schema.json",
+    "meta":  {
+                 "version":  "1.0.2",
+                 "name":  "El Quinto Sol",
+                 "description":  "Sobrevive 30 dias, derrota a los Heraldos en orden estricto -Tierra, Aire, Fuego y Sombra- y enfrenta unido el descenso del Quinto Sol. Una vida. Fabric 1.20.1.",
+                 "icon":  "",
+                 "address":  "127.0.0.1:25565",
+                 "mainServer":  true,
+                 "autoconnect":  true,
+                 "javaOptions":  {
+                                     "supported":  "\u003e=21.x",
+                                     "suggestedMajor":  21,
+                                     "ram":  {
+                                                 "recommended":  4096,
+                                                 "minimum":  2048
+                                             }
+                                 }
+             },
+    "fabric":  {
+                   "version":  "0.20.1"
+               },
+    "untrackedFiles":  [
+
+                       ]
+}

@@ -1,0 +1,361 @@
+{
+    "version":  "1.0.6",
+    "servers":  [
+                    {
+                        "id":  "QuintoSol-1.20.1",
+                        "name":  "El Quinto Sol",
+                        "description":  "Sobrevive 30 dias, derrota a los Heraldos en orden estricto -Tierra, Aire, Fuego y Sombra- y enfrenta unido el descenso del Quinto Sol. Una vida. Fabric 1.20.1.",
+                        "icon":  null,
+                        "version":  "1.0.1",
+                        "address":  "127.0.0.1:25565",
+                        "minecraftVersion":  "1.20.1",
+                        "mainServer":  true,
+                        "autoconnect":  true,
+                        "javaOptions":  {
+                                            "supported":  "\u003e=21.x",
+                                            "suggestedMajor":  21,
+                                            "ram":  {
+                                                        "recommended":  4096,
+                                                        "minimum":  2048
+                                                    }
+                                        },
+                        "modules":  [
+                                        {
+                                            "id":  "net.fabricmc:fabric-loader:0.20.1",
+                                            "name":  "Fabric (fabric-loader)",
+                                            "type":  "Fabric",
+                                            "artifact":  {
+                                                             "size":  1988880,
+                                                             "MD5":  "2e3dc8eebfde75fc8078c931090cd46f",
+                                                             "url":  "http://127.0.0.1:8080/repo/lib/net/fabricmc/fabric-loader/0.20.1/fabric-loader-0.20.1.jar"
+                                                         },
+                                            "subModules":  [
+                                                               {
+                                                                   "id":  "1.20.1-fabric-0.20.1",
+                                                                   "name":  "Fabric (version.json)",
+                                                                   "type":  "VersionManifest",
+                                                                   "artifact":  {
+                                                                                    "size":  2862,
+                                                                                    "MD5":  "a0addd44643517e319a04818c25662f6",
+                                                                                    "url":  "http://127.0.0.1:8080/repo/versions/1.20.1-fabric-0.20.1/1.20.1-fabric-0.20.1.json"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "org.ow2.asm:asm:9.10.1",
+                                                                   "name":  "Fabric (asm)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  126151,
+                                                                                    "MD5":  "9cb72080438acf27f2607002e1444a7b",
+                                                                                    "url":  "http://127.0.0.1:8080/repo/lib/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "org.ow2.asm:asm-analysis:9.10.1",
+                                                                   "name":  "Fabric (asm-analysis)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  35140,
+                                                                                    "MD5":  "6dd9011ec87f65e4b2e14e938c4118e4",
+                                                                                    "url":  "http://127.0.0.1:8080/repo/lib/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "org.ow2.asm:asm-commons:9.10.1",
+                                                                   "name":  "Fabric (asm-commons)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  74840,
+                                                                                    "MD5":  "8eee0b1bdd046baf472eb83dd5e6bb44",
+                                                                                    "url":  "http://127.0.0.1:8080/repo/lib/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "org.ow2.asm:asm-tree:9.10.1",
+                                                                   "name":  "Fabric (asm-tree)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  51958,
+                                                                                    "MD5":  "62541e1dc62331408ef31317555bf4fa",
+                                                                                    "url":  "http://127.0.0.1:8080/repo/lib/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "org.ow2.asm:asm-util:9.10.1",
+                                                                   "name":  "Fabric (asm-util)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  95628,
+                                                                                    "MD5":  "d0892ecb209867805e7d2418e5dc6c42",
+                                                                                    "url":  "http://127.0.0.1:8080/repo/lib/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "net.fabricmc:sponge-mixin:0.17.5+mixin.0.8.7",
+                                                                   "name":  "Fabric (sponge-mixin)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  1551593,
+                                                                                    "MD5":  "5fd69fb11801c52d88a854ffe05eb839",
+                                                                                    "url":  "http://127.0.0.1:8080/repo/lib/net/fabricmc/sponge-mixin/0.17.5+mixin.0.8.7/sponge-mixin-0.17.5+mixin.0.8.7.jar"
+                                                                                }
+                                                               },
+                                                               {
+                                                                   "id":  "net.fabricmc:intermediary:1.20.1",
+                                                                   "name":  "Fabric (intermediary)",
+                                                                   "type":  "Library",
+                                                                   "artifact":  {
+                                                                                    "size":  573365,
+                                                                                    "MD5":  "3f4768ac751cac3418266d1d7aa15f55",
+                                                                                    "url":  "http://127.0.0.1:8080/repo/lib/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
+                                                                                }
+                                                               }
+                                                           ]
+                                        },
+                                        {
+                                            "id":  "dev.architectury.utils:architectury:9.2.14@jar",
+                                            "name":  "Architectury",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  585207,
+                                                             "url":  "http://127.0.0.1:8080/servers/QuintoSol-1.20.1/fabricmods/required/architectury-9.2.14-fabric.jar",
+                                                             "MD5":  "2ae04e0dad60a390031ee341e0b2ab45"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "net.liopyu:entityjs:0.7.5@jar",
+                                            "name":  "Entity JS",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  3667125,
+                                                             "url":  "http://127.0.0.1:8080/servers/QuintoSol-1.20.1/fabricmods/required/entityjs-fabric-0.7.5.jar",
+                                                             "MD5":  "a8b9708886c5fec12b1b22fdd36cbc5c"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "generated.fabricmod:fabric-api:0.92.12+1.20.1@jar",
+                                            "name":  "Fabric API",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  2137232,
+                                                             "url":  "http://127.0.0.1:8080/servers/QuintoSol-1.20.1/fabricmods/required/fabric-api-0.92.12+1.20.1.jar",
+                                                             "MD5":  "0e405ca544d986fb65f3f524e393c11a"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "generated.fabricmod:ferritecore:6.0.1@jar",
+                                            "name":  "FerriteCore",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  125197,
+                                                             "url":  "http://127.0.0.1:8080/servers/QuintoSol-1.20.1/fabricmods/required/ferritecore-6.0.1-fabric.jar",
+                                                             "MD5":  "a19272e427f75fea59127de6610ea26b"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "software.bernie.example:geckolib:4.8.4@jar",
+                                            "name":  "GeckoLib 4",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  969016,
+                                                             "url":  "http://127.0.0.1:8080/servers/QuintoSol-1.20.1/fabricmods/required/geckolib-fabric-1.20.1-4.8.4.jar",
+                                                             "MD5":  "8632c2274d4c37f2122b202c02050370"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "me.steinborn.krypton.mod.shared:krypton:0.2.3@jar",
+                                            "name":  "Krypton",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  185895,
+                                                             "url":  "http://127.0.0.1:8080/servers/QuintoSol-1.20.1/fabricmods/required/krypton-0.2.3.jar",
+                                                             "MD5":  "3bf353c1ab576b57c003109c079e2ec8"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "dev.latvian.mods:kubejs:2001.6.5-build.26@jar",
+                                            "name":  "KubeJS",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  1608326,
+                                                             "url":  "http://127.0.0.1:8080/servers/QuintoSol-1.20.1/fabricmods/required/kubejs-fabric-2001.6.5-build.26.jar",
+                                                             "MD5":  "22c58d49c7164a7f6c0af34ec198f6d7"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "me.jellysquid.mods:lithium:0.11.4@jar",
+                                            "name":  "Lithium",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  691483,
+                                                             "url":  "http://127.0.0.1:8080/servers/QuintoSol-1.20.1/fabricmods/required/lithium-fabric-mc1.20.1-0.11.4.jar",
+                                                             "MD5":  "01fba3b3678fadc34d4d2878031762cd"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "dev.latvian.mods.rhino.mod:rhino:2001.2.3-build.10@jar",
+                                            "name":  "Rhino",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  1743587,
+                                                             "url":  "http://127.0.0.1:8080/servers/QuintoSol-1.20.1/fabricmods/required/rhino-fabric-2001.2.3-build.10.jar",
+                                                             "MD5":  "4c971bf6328e5f4ef8cbcd3ecee1c21e"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "de.maxhenkel:voicechat:1.20.1-2.6.27@jar",
+                                            "name":  "Simple Voice Chat",
+                                            "type":  "FabricMod",
+                                            "artifact":  {
+                                                             "size":  5298708,
+                                                             "url":  "http://127.0.0.1:8080/servers/QuintoSol-1.20.1/fabricmods/required/voicechat-fabric-1.20.1-2.6.27.jar",
+                                                             "MD5":  "0daaa65b7db4c948993275564ed7d1f1"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "quintosol.kubejs:kubejs/startup_scripts/heraldos.js",
+                                            "name":  "KubeJS: kubejs/startup_scripts/heraldos.js",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  5595,
+                                                             "MD5":  "0c960c1a7433dfe7a7f2e1b9d6617de1",
+                                                             "path":  "kubejs/startup_scripts/heraldos.js",
+                                                             "url":  "http://127.0.0.1:8080/servers/QuintoSol-1.20.1/files/kubejs/startup_scripts/heraldos.js"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "quintosol.kubejs:kubejs/server_scripts/heraldos.js",
+                                            "name":  "KubeJS: kubejs/server_scripts/heraldos.js",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  1221,
+                                                             "MD5":  "1d04743b1e29fb85a34fc6702fe84ffc",
+                                                             "path":  "kubejs/server_scripts/heraldos.js",
+                                                             "url":  "http://127.0.0.1:8080/servers/QuintoSol-1.20.1/files/kubejs/server_scripts/heraldos.js"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "quintosol.kubejs:kubejs/assets/quintosol/animations/entity/ayotl.animation.json",
+                                            "name":  "KubeJS: kubejs/assets/quintosol/animations/entity/ayotl.animation.json",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  2043,
+                                                             "MD5":  "4b5b5509432645e64cb419ffa9be28fe",
+                                                             "path":  "kubejs/assets/quintosol/animations/entity/ayotl.animation.json",
+                                                             "url":  "http://127.0.0.1:8080/servers/QuintoSol-1.20.1/files/kubejs/assets/quintosol/animations/entity/ayotl.animation.json"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "quintosol.kubejs:kubejs/assets/quintosol/animations/entity/ehecatl.animation.json",
+                                            "name":  "KubeJS: kubejs/assets/quintosol/animations/entity/ehecatl.animation.json",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  2333,
+                                                             "MD5":  "b21effe7de0ec3784f222bced31ebd0f",
+                                                             "path":  "kubejs/assets/quintosol/animations/entity/ehecatl.animation.json",
+                                                             "url":  "http://127.0.0.1:8080/servers/QuintoSol-1.20.1/files/kubejs/assets/quintosol/animations/entity/ehecatl.animation.json"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "quintosol.kubejs:kubejs/assets/quintosol/animations/entity/ocelotl.animation.json",
+                                            "name":  "KubeJS: kubejs/assets/quintosol/animations/entity/ocelotl.animation.json",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  2105,
+                                                             "MD5":  "aa3a100b38cd12b5b2f2c11d515d7822",
+                                                             "path":  "kubejs/assets/quintosol/animations/entity/ocelotl.animation.json",
+                                                             "url":  "http://127.0.0.1:8080/servers/QuintoSol-1.20.1/files/kubejs/assets/quintosol/animations/entity/ocelotl.animation.json"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "quintosol.kubejs:kubejs/assets/quintosol/animations/entity/tleco.animation.json",
+                                            "name":  "KubeJS: kubejs/assets/quintosol/animations/entity/tleco.animation.json",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "size":  1773,
+                                                             "MD5":  "c10d8f6adb4c10a1f8358c7878afeb6a",
+                                                             "path":  "kubejs/assets/quintosol/animations/entity/tleco.animation.json",
+                                                             "url":  "http://127.0.0.1:8080/servers/QuintoSol-1.20.1/files/kubejs/assets/quintosol/animations/entity/tleco.animation.json"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "quintosol.kubejs:kubejs/assets/quintosol/animations/entity/ayotl_boss.animation.json",
+                                            "name":  "KubeJS: kubejs/assets/quintosol/animations/entity/ayotl_boss.animation.json",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "path":  "kubejs/assets/quintosol/animations/entity/ayotl_boss.animation.json",
+                                                             "size":  1799,
+                                                             "MD5":  "25adb9013ffda573f96cd11877c0b2c0",
+                                                             "url":  "http://127.0.0.1:8080/servers/QuintoSol-1.20.1/files/kubejs/assets/quintosol/animations/entity/ayotl_boss.animation.json"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "quintosol.kubejs:kubejs/assets/quintosol/animations/entity/ayotl_arte.animation.json",
+                                            "name":  "KubeJS: kubejs/assets/quintosol/animations/entity/ayotl_arte.animation.json",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "path":  "kubejs/assets/quintosol/animations/entity/ayotl_arte.animation.json",
+                                                             "size":  952,
+                                                             "MD5":  "0679d878b22467f6bc2f0fa8f473e2c7",
+                                                             "url":  "http://127.0.0.1:8080/servers/QuintoSol-1.20.1/files/kubejs/assets/quintosol/animations/entity/ayotl_arte.animation.json"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "quintosol.kubejs:kubejs/assets/quintosol/geo/entity/ayotl_boss.geo.json",
+                                            "name":  "KubeJS: kubejs/assets/quintosol/geo/entity/ayotl_boss.geo.json",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "path":  "ayotl_boss.geo.json",
+                                                             "size":  57928,
+                                                             "MD5":  "7d00bfc89e1dd52fd62d65f0d5a86f14",
+                                                             "url":  "http://127.0.0.1:8080/servers/QuintoSol-1.20.1/files/kubejs/assets/quintosol/geo/entity/ayotl_boss.geo.json"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "quintosol.kubejs:kubejs/assets/quintosol/geo/entity/ayotl_arte.geo.json",
+                                            "name":  "KubeJS: kubejs/assets/quintosol/geo/entity/ayotl_arte.geo.json",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "path":  "ayotl_arte.geo.json",
+                                                             "size":  722227,
+                                                             "MD5":  "d3acdefd9a929bd174008b4fed5ba835",
+                                                             "url":  "http://127.0.0.1:8080/servers/QuintoSol-1.20.1/files/kubejs/assets/quintosol/geo/entity/ayotl_arte.geo.json"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "quintosol.kubejs:kubejs/assets/quintosol/textures/entity/ayotl_boss.png",
+                                            "name":  "KubeJS: kubejs/assets/quintosol/textures/entity/ayotl_boss.png",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "path":  "kubejs/assets/quintosol/textures/entity/ayotl_boss.png",
+                                                             "size":  411,
+                                                             "MD5":  "a30cd764ce6fb1b297ab22d584e94231",
+                                                             "url":  "http://127.0.0.1:8080/servers/QuintoSol-1.20.1/files/kubejs/assets/quintosol/textures/entity/ayotl_boss.png"
+                                                         }
+                                        },
+                                        {
+                                            "id":  "quintosol.kubejs:kubejs/assets/quintosol/textures/entity/ayotl_arte.png",
+                                            "name":  "KubeJS: kubejs/assets/quintosol/textures/entity/ayotl_arte.png",
+                                            "type":  "File",
+                                            "artifact":  {
+                                                             "path":  "kubejs/assets/quintosol/textures/entity/ayotl_arte.png",
+                                                             "size":  2218,
+                                                             "MD5":  "da48a1b0d346ff525f93d2aefcebb2a3",
+                                                             "url":  "http://127.0.0.1:8080/servers/QuintoSol-1.20.1/files/kubejs/assets/quintosol/textures/entity/ayotl_arte.png"
+                                                         }
+                                        },
+                                         {
+                                             "id":  "quintosol.kubejs:kubejs/client_scripts/volver_al_launcher.js",
+                                             "name":  "KubeJS: kubejs/client_scripts/volver_al_launcher.js",
+                                             "type":  "File",
+                                             "artifact":  {
+                                                              "path":  "kubejs/client_scripts/volver_al_launcher.js",
+                                                              "size":  519,
+                                                              "MD5":  "5939f0c4b88fd992d1b08976dff946ad",
+                                                              "url":  "http://127.0.0.1:8080/servers/QuintoSol-1.20.1/files/kubejs/client_scripts/volver_al_launcher.js"
+                                                          }
+                                         }
+                                    ]
+                    }
+                ]
+}
